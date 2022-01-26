@@ -19,13 +19,13 @@ public class ScheduledWithCronForNPT {
 		 // create a simple date format instance
 	    SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd 'T' HH:mm:ss");
 	    // get the time zone of Nepal country
-	    TimeZone India = TimeZone.getTimeZone("Asia/Kathmandu");
+	    TimeZone Nepal = TimeZone.getTimeZone("Asia/Kathmandu");
 	    // set the time zone to the date format
-	    sdf.setTimeZone(India);
+	    sdf.setTimeZone(Nepal);
 	    // print the date to the console
 	    System.err.println();
 		
-	   String name= "rabindra";
+	   String name= "Rabindra";
 	    System.out.println(
 	  	      "MU NAME IS - " + name  +" And Date :" +sdf.format(new Date()));
 	}

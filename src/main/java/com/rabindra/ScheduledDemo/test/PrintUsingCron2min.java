@@ -2,10 +2,12 @@ package com.rabindra.ScheduledDemo.test;
 
 import java.util.Date;
 
-import org.springframework.context.annotation.Configuration;
+//import org.springframework.context.annotation.Configuration;
 import org.springframework.scheduling.annotation.Scheduled;
+import org.springframework.stereotype.Component;
 
-@Configuration
+//@Configuration
+@Component
 public class PrintUsingCron2min {
 
 	@Scheduled(cron = "0 */2 * * * *")

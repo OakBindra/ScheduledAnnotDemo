@@ -22,8 +22,7 @@ public class ScheduledWithCronForNPT {
 	    TimeZone Nepal = TimeZone.getTimeZone("Asia/Kathmandu");
 	    // set the time zone to the date format
 	    sdf.setTimeZone(Nepal);
-	    // print the date to the console
-	    System.err.println();
+	    
 		
 	   String name= "Rabindra";
 	    System.out.println(

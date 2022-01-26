@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class ScheduledWithCronForNPT {
 
-	@Scheduled(cron = "0 24 15 * * *")
+	@Scheduled(cron = "0 0 19 * * *")
 	public void scheduleTaskUsingCronExpression() {
 //		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss.SSS");
 //	    Date now = new Date();
